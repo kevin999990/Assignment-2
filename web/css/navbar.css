@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 15, 2014, 7:20:46 PM
+    Author     : Kevin
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+    height: 25px;
+
+}
+body{
+    background-image: url("/EuYanSang/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#banner{
+    text-align: center;
+    sdisplay: block;
+    background-color: burlywood;
+    opacity: 0.8;
+}
+nav ul{
+    display: inline-block;
+    height: 25px;
+    margin: 0 auto;
+}
+nav ul li{
+    list-style-type: none;
+    width: 150px;
+    float: left;
+
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    display: block;
+
+}
+li a:hover{
+    background-color: white;
+    color: black;
+}
+
+#container{
+    width: 800px;
+    margin: 20px auto;
+    display: block;
+    background-color: white;
+    padding: 10px 10px;
+    opacity: 0.9;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+input[type=submit]{
+    width: 70px;
+}
+
+form{
+    margin: 10px auto;
+}
+input.quantity{
+    width: 50px;
+}
+
+#supplierAddress{
+    overflow: scroll;
+    resize: none;
+}
